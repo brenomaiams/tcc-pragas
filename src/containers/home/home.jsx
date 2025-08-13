@@ -10,6 +10,9 @@ export default function Home() {
       <button style={styles.botao} onClick={() => navigate("/registro")}>
         Registro
       </button>
+      <button style={styles.botao2} onClick={() => navigate("/login")}>
+        Login
+      </button>
     </div>
   );
 }
@@ -32,6 +35,17 @@ const styles = {
   },
   botao: {
     padding: "14px 28px",
+    fontSize: "16px",
+    backgroundColor: "#0a3a07",
+    color: "#fff",
+    border: "none",
+    borderRadius: "8px",
+    cursor: "pointer",
+    fontWeight: "500",
+    marginBottom: "15px",
+  },
+  botao2: {
+    padding: "14px 38px",
     fontSize: "16px",
     backgroundColor: "#0a3a07",
     color: "#fff",
